@@ -1,0 +1,13 @@
+{
+  "name": "new-jungle-market",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "web": "npm --workspace apps/web run dev",
+    "web:build": "npm --workspace apps/web run build"
+  }
+}
